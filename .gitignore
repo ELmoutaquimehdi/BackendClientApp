@@ -1,14 +1,40 @@
+# ---------------------------
 # Java / Spring Boot
-/target
+# ---------------------------
+
+# Dossiers de build Maven / Gradle
+/target/
+/build/
+
+# Fichiers compilés
 *.class
-
-# Environnements / secrets
-.env
-
-# IDEs
-/.idea
-*.iml
-
+*.jar
+*.war
+*.ear
 
 # Logs
 *.log
+
+# Fichiers temporaires
+*.tmp
+*.swp
+*.DS_Store
+
+# Environnements / secrets
+.env
+*.env
+application*.yml
+application*.properties
+
+# IDEs / éditeurs
+/.idea/
+/.vscode/
+*.iml
+
+# Eclipse
+/.classpath
+/.project
+/.settings/
+
+# Intellij
+/out/

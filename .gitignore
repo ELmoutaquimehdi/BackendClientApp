@@ -24,7 +24,7 @@
 .env
 *.env
 application*.yml
-application*.properties
+
 
 # IDEs / éditeurs
 /.idea/
